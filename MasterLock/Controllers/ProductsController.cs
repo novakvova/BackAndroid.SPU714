@@ -68,7 +68,7 @@ namespace MasterLock.Controllers
             {
                 return BadRequest(new
                 {
-                    invalid = "Формат ціни 0.0"
+                    price = "Формат ціни 0.0"
                 });
             }
 
